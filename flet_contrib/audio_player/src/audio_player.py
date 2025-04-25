@@ -103,7 +103,7 @@ class AudioPlayer(ft.Container):
                             # wrap=True,
                             alignment=ft.MainAxisAlignment.CENTER,
                         ),
-                        # border=ft.border.all(2, ft.Colors.PINK),
+                        # border=ft.border.all(2, ft.colors.PINK),
                     ),
                 ],
                 spacing=0,
@@ -111,7 +111,7 @@ class AudioPlayer(ft.Container):
             ),
             width=page.width,
             alignment=ft.alignment.center,
-            # border=ft.border.all(2, ft.Colors.PURPLE),
+            # border=ft.border.all(2, ft.colors.PURPLE),
             margin=0,
         )
 
@@ -138,7 +138,7 @@ class AudioPlayer(ft.Container):
         self.play_pause_btn = play_pause_btn
         self.playing = False
 
-        # self.border = ft.border.all(2, ft.Colors.PURPLE)
+        # self.border = ft.border.all(2, ft.colors.PURPLE)
 
         # contents = ft.Column([self.seek_bar])
 
